@@ -1,3 +1,4 @@
+import {NavLink} from "react-router-dom";
 
 
 const Navbar = () => {
@@ -8,13 +9,13 @@ const Navbar = () => {
                     <div className="col-md-10">
                         <div>
                             <ul className="d-flex gap-5">
-                                <li><a href="#" className="active">Home</a><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#services">Services</a><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
-                                <li><a href="#projects">Projects</a><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
-                                <li><a href="#news">News</a><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
-                                <li><a href="#shop">Shop</a><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><NavLink to="/" className="active">Home</NavLink><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
+                                <li><NavLink to="/about">About</NavLink></li>
+                                <li><NavLink to="/service">Services</NavLink><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
+                                <li><NavLink to="/project">Projects</NavLink><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
+                                <li><NavLink to="/news">News</NavLink><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
+                                <li><NavLink to="/shop">Shop</NavLink><img className="ms-2" src="images/direction.svg" alt="icon"/></li>
+                                <li><NavLink to="/contact">Contact</NavLink></li>
                             </ul>
                         </div>
                     </div>

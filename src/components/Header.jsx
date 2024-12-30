@@ -1,3 +1,4 @@
+import {NavLink} from "react-router-dom";
 
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
                 <div className="row">
                     <div className="col-md-2">
                         <div className="logo">
-                            <img className='img-fluid' src="images/logo.svg" alt="logo"/>
+                            <NavLink to="/" ><img className='img-fluid' src="images/logo.svg" alt="logo"/></NavLink>
                         </div>
                     </div>
                     <div className="col-md-10">

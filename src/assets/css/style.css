@@ -193,6 +193,7 @@ ul, li, a{
 
 /*service section*/
 .services{
+    margin: 80px 0;
     & .top-wrapper{
         padding: 80px 0;
         width: 100%;
@@ -219,7 +220,7 @@ ul, li, a{
 
 /*achievement section*/
 .achievement-section{
-    margin: 90px 0 30px 0;
+    margin: 150px 0;
     width: 100%;
     height: 691px;
     background-image: url('images/achievement-bg.png');
@@ -237,8 +238,6 @@ ul, li, a{
     }
     & .left-wrapper{
         height: 336px;
-        display: flex;
-        align-items: center;
         & h1{
             font-size: 70px;
             font-weight: 800;
@@ -265,6 +264,7 @@ ul, li, a{
 
 /*project section*/
 .project-section{
+    margin: 70px 0;
     width: 100%;
     height: 558px;
     & .top-wrapper{
@@ -285,7 +285,7 @@ ul, li, a{
 
 /*testimonial section*/
 .testimonial-section{
-    margin: 70px 0;
+    margin: 120px 0;
     padding: 70px 0;
     background-color: #F8F7F0;
     & .left-wrapper{
@@ -449,10 +449,12 @@ ul, li, a{
     }
     & .wrapper_2{
         & li{
-            color: #A5A49A;
-            font-size: 15px;
-            font-weight: 500;
-            line-height: 30px;
+            & .contact_link{
+                color: #A5A49A;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 30px;
+            }
         }
 
     }

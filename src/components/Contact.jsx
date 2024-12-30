@@ -1,3 +1,4 @@
+import {NavLink} from "react-router-dom";
 
 function formatDate(date) {
     const options = { day: '2-digit', month: 'short', year: 'numeric' };
@@ -41,39 +42,27 @@ const Contact = () => {
                                 <ul className="mt-3">
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <a href="#about">
-                                            <li>About</li>
-                                        </a>
+                                        <li><NavLink  className="contact_link" to="/about">About</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <a href="#services">
-                                            <li>Services</li>
-                                        </a>
+                                        <li><NavLink className="contact_link" to="/service">Service</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <a href="#projects">
-                                            <li>Our Projects</li>
-                                        </a>
+                                        <li><NavLink className="contact_link" to="/project">Projects</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <a href="#about">
-                                            <li>Meet the Farmers</li>
-                                        </a>
+                                        <li><NavLink className="contact_link" to="/about">Meet the farmer</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <a href="#news">
-                                            <li>Latest News</li>
-                                        </a>
+                                        <li><NavLink className="contact_link" to="/news">News</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <a href="#contact">
-                                            <li>Contact</li>
-                                        </a>
+                                        <li><NavLink className="contact_link" to="/contact">Contact</NavLink></li>
                                     </div>
                                 </ul>
                             </div>

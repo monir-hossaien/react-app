@@ -20,22 +20,24 @@ const Achievement = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6">
-                        <div className="left-wrapper align-self-center">
-                            <div>
-                                <h1>
-                                    Agriculture <br/>
-                                    Matters to the <br/>
-                                    Future of <br/>
-                                    Development
-                                </h1>
+                    <div className="row mt-5">
+                        <div className="col-md-6">
+                            <div className="left-wrapper">
+                                <div>
+                                    <h1>
+                                        Agriculture <br/>
+                                        Matters to the <br/>
+                                        Future of <br/>
+                                        Development
+                                    </h1>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="right_wrapper">
-                            <div className="icon">
-                                <img className="img-fluid" src="images/play_icon.svg" alt="icon"/>
+                        <div className="col-md-6">
+                            <div className="right_wrapper">
+                                <div className="icon">
+                                    <img className="img-fluid" src="images/play_icon.svg" alt="icon"/>
+                                </div>
                             </div>
                         </div>
                     </div>

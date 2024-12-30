@@ -7,26 +7,27 @@ import Project from "../components/Project.jsx";
 import Testimonial from "../components/Testimonial.jsx";
 import Benefit from "../components/Benefit.jsx";
 import Blog from "../components/Blog.jsx";
-import Contact from "../components/Contact.jsx";
 import Achievement from "../components/Achievement.jsx";
+import Layout from "../layout/Layout.jsx";
 
 
 
-const Home = () => {
+const HomePage = () => {
     return (
         <div>
-            <Hero/>
-            <Feature/>
-            <About/>
-            <Service/>
-            <Achievement/>
-            <Project/>
-            <Testimonial/>
-            <Benefit/>
-            <Blog/>
-            <Contact/>
+            <Layout>
+                <Hero/>
+                <Feature/>
+                <About/>
+                <Service/>
+                <Achievement/>
+                <Project/>
+                <Testimonial/>
+                <Benefit/>
+                <Blog/>
+            </Layout>
         </div>
     );
 };
 
-export default Home;
+export default HomePage;
