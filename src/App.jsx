@@ -10,6 +10,7 @@ import ProjectPage from "./pages/ProjectPage.jsx";
 import NewsPage from "./pages/NewsPage.jsx";
 import ShopPage from "./pages/ShopPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 const App = () => {
     return (
@@ -23,6 +24,7 @@ const App = () => {
                     <Route path="/news" element={<NewsPage/>}/>
                     <Route path="/shop" element={<ShopPage/>}/>
                     <Route path="/contact" element={<ContactPage/>}/>
+                    <Route path="*" element={<NotFound />}/>
                 </Routes>
             </BrowserRouter>
         </div>
