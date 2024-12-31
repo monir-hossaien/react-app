@@ -9,6 +9,9 @@ const today = new Date();
 
 
 const Contact = () => {
+    const scrollTop=()=>{
+        window.scrollTo(0,0);
+    }
     return (
         <>
             <div className="blank"></div>
@@ -42,27 +45,27 @@ const Contact = () => {
                                 <ul className="mt-3">
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <li><NavLink  className="contact_link" to="/about">About</NavLink></li>
+                                        <li><NavLink onClick={scrollTop}  className="contact_link" to="/about">About</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <li><NavLink className="contact_link" to="/service">Service</NavLink></li>
+                                        <li><NavLink onClick={scrollTop} className="contact_link" to="/service">Service</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <li><NavLink className="contact_link" to="/project">Projects</NavLink></li>
+                                        <li><NavLink onClick={scrollTop} className="contact_link" to="/project">Projects</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <li><NavLink className="contact_link" to="/about">Meet the farmer</NavLink></li>
+                                        <li><NavLink onClick={scrollTop} className="contact_link" to="/about">Meet the farmer</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <li><NavLink className="contact_link" to="/news">News</NavLink></li>
+                                        <li><NavLink onClick={scrollTop} className="contact_link" to="/news">News</NavLink></li>
                                     </div>
                                     <div className="d-flex gap-2">
                                         <img className="img-fluid" src="images/footer_leap.svg" alt="icon"/>
-                                        <li><NavLink className="contact_link" to="/contact">Contact</NavLink></li>
+                                        <li><NavLink onClick={scrollTop} className="contact_link" to="/contact">Contact</NavLink></li>
                                     </div>
                                 </ul>
                             </div>
